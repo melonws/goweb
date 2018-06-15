@@ -2,8 +2,8 @@ package router
 
 import (
 	"gopkg.in/gin-gonic/gin.v1"
-	."gorestful/apis"
-	."gorestful/middleware"
+	."goweb/apis"
+	."goweb/middleware"
 )
 
 /**

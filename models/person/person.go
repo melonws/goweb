@@ -1,7 +1,7 @@
 package person
 
 import (
-	"gorestful/libs/dbHelper"
+	"goweb/libs/dbHelper"
 	"log"
 )
 

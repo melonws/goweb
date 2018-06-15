@@ -6,7 +6,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"gorestful/cmds/mqOrderCourse"
+	"goweb/cmds/mqOrderCourse"
 )
 
 var funcMap map[string]interface{}

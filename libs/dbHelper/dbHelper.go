@@ -1,7 +1,7 @@
 package dbHelper
 
 import (
-	"gorestful/config"
+	"goweb/config"
 	"github.com/gohouse/gorose"
 	_"github.com/go-sql-driver/mysql"
 	"log"
