@@ -6,7 +6,7 @@ import (
 	"github.com/streadway/amqp"
 	"errors"
 	"bytes"
-	"gorestful/config"
+	"goweb/config"
 	"time"
 )
 

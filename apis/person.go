@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 	"log"
-	."gorestful/models/person"
+	."goweb/models/person"
 	"fmt"
-	"gorestful/libs/logHelper"
+	"goweb/libs/logHelper"
 )
 
 /**

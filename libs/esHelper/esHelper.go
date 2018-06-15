@@ -2,8 +2,8 @@ package esHelper
 
 import (
 	"github.com/olivere/elastic"
-	"gorestful/libs/logHelper"
-	"gorestful/config"
+	"goweb/libs/logHelper"
+	"goweb/config"
 	"context"
 )
 

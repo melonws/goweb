@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	."gorestful/router"
+	."goweb/router"
 )
 
 /**

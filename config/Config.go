@@ -1,6 +1,6 @@
 package Config
 
-import "gorestful/config/loadConfig"
+import "goweb/config/loadConfig"
 
 /**
  * 这个Config的包的目的是为了统一查看管理

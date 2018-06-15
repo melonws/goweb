@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gorestful/cmds"
+	"goweb/cmds"
 	"reflect"
 	"errors"
 	"flag"

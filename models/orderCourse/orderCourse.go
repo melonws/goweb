@@ -1,10 +1,10 @@
 package orderCourse
 
 import (
-	"gorestful/libs/dbHelper"
-	"gorestful/libs/logHelper"
+	"goweb/libs/dbHelper"
+	"goweb/libs/logHelper"
 	"time"
-	"gorestful/libs/esHelper"
+	"goweb/libs/esHelper"
 	"fmt"
 )
 

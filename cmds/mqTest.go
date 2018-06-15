@@ -1,10 +1,10 @@
 package cmd_custom_reg
 
 import (
-	"gorestful/libs/mqHelper"
+	"goweb/libs/mqHelper"
 	"encoding/json"
 	"fmt"
-	"gorestful/libs/logHelper"
+	"goweb/libs/logHelper"
 	"github.com/streadway/amqp"
 	"bytes"
 	"time"

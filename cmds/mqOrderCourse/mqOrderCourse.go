@@ -1,14 +1,13 @@
 package mqOrderCourse
 
 import (
-	"gorestful/libs/mqHelper"
+	"goweb/libs/mqHelper"
 	"github.com/streadway/amqp"
-	"gorestful/libs/logHelper"
+	"goweb/libs/logHelper"
 	"fmt"
 	"encoding/json"
 	"bytes"
-	//"gorestful/models/orderCourse"
-	"gorestful/models/orderCourse"
+	"goweb/models/orderCourse"
 	"strconv"
 	"time"
 )
