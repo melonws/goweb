@@ -1,0 +1,18 @@
+
+2018/06/14 14:27:22 logHelper.go:54: es 连接失败10.99.2.21:9200
+
+2018/06/14 14:39:46 logHelper.go:54: es 连接失败http://10.99.2.21:9200
+
+2018/06/14 15:53:21 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:55:59 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:56:52 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:57:25 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:57:43 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:58:08 logHelper.go:54: es 连接失败test_wangshu
+
+2018/06/14 15:58:33 logHelper.go:54: es 连接失败test_wangshu

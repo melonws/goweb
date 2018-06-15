@@ -1,0 +1,6 @@
+
+2018/06/14 16:58:43 logHelper.go:54: 数据库查询出错、或订单不存在Error 1146: Table 'one_crm.course_order_infos' doesn't exist
+
+2018/06/14 16:59:29 logHelper.go:54: 数据库查询出错、或订单不存在Error 1146: Table 'one_crm.course_order_infos' doesn't exist
+
+2018/06/14 17:00:05 logHelper.go:54: 数据库查询出错、或订单不存在Error 1146: Table 'one_crm.course_order_infos' doesn't exist
