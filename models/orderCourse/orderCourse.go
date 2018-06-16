@@ -5,7 +5,6 @@ import (
 	"goweb/libs/logHelper"
 	"time"
 	"goweb/libs/esHelper"
-	"fmt"
 )
 
 type orderCourse struct {
@@ -27,7 +26,7 @@ func AddToEs(courseOrderInfoId int) bool {
 	defer connect.Close()
 
 	orderinfo,err := model.Where("id","in",[]interface{}{courseOrderInfoId}).First()
-	fmt.Println(orderinfo)
+
 	if err != nil {
 		logHelper.WriteLog("数据库查询出错、或订单不存在"+err.Error(),"orderCourseInfo/addtoes/error")
 		return false
