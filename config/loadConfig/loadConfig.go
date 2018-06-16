@@ -22,7 +22,7 @@ func init() {
 
 	if err != nil {
 		logHelper.WriteLog("[读取配置文件出错]"+err.Error(),"system/error")
-		log.Fatalln("[读取配置文件出错]"+err.Error())
+		log.Fatalln("[读取配置文件出错][没有找到.env配置文件]")
 	}
 
 	cfg = config

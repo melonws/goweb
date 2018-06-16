@@ -1,2 +1,0 @@
-
-2018/06/14 16:26:17 logHelper.go:54: es 更新失败elastic: Error 500 (Internal Server Error): Compressor detection can only be called on some xcontent bytes or compressed xcontent bytes [type=not_x_content_exception]
