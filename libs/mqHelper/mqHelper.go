@@ -6,7 +6,7 @@ import (
 	"github.com/streadway/amqp"
 	"errors"
 	"bytes"
-	"goweb/config"
+	"github.com/melonws/goweb/config"
 	"time"
 )
 

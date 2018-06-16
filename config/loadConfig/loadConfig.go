@@ -3,7 +3,7 @@ package loadConfig
 import (
 	"github.com/Unknwon/goconfig"
 	"os"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 	"log"
 )
 

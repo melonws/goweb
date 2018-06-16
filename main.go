@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	."goweb/router"
+	."github.com/melonws/goweb/router"
 )
 
 /**

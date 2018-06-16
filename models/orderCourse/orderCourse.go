@@ -1,10 +1,10 @@
 package orderCourse
 
 import (
-	"goweb/libs/dbHelper"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/dbHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 	"time"
-	"goweb/libs/esHelper"
+	"github.com/melonws/goweb/libs/esHelper"
 )
 
 type orderCourse struct {

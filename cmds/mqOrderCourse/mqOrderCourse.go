@@ -1,13 +1,13 @@
 package mqOrderCourse
 
 import (
-	"goweb/libs/mqHelper"
+	"github.com/melonws/goweb/libs/mqHelper"
 	"github.com/streadway/amqp"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 	"fmt"
 	"encoding/json"
 	"bytes"
-	"goweb/models/orderCourse"
+	"github.com/melonws/goweb/models/orderCourse"
 	"strconv"
 	"time"
 )

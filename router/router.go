@@ -2,8 +2,8 @@ package router
 
 import (
 	"gopkg.in/gin-gonic/gin.v1"
-	."goweb/apis"
-	."goweb/middleware"
+	."github.com/melonws/goweb/apis"
+	."github.com/melonws/goweb/middleware"
 )
 
 /**

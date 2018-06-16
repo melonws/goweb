@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 	"log"
-	."goweb/models/person"
+	."github.com/melonws/goweb/models/person"
 	"fmt"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 )
 
 /**

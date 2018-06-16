@@ -1,10 +1,10 @@
 package cmd_custom_reg
 
 import (
-	"goweb/libs/mqHelper"
+	"github.com/melonws/goweb/libs/mqHelper"
 	"encoding/json"
 	"fmt"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 	"github.com/streadway/amqp"
 	"bytes"
 	"time"

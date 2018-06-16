@@ -1,6 +1,6 @@
 package Config
 
-import "goweb/config/loadConfig"
+import "github.com/melonws/goweb/config/loadConfig"
 
 /**
  * 这个Config的包的目的是为了统一查看管理

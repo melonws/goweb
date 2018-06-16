@@ -1,12 +1,12 @@
 package main
 
 import (
-	"goweb/cmds"
+	"github.com/melonws/goweb/cmds"
 	"reflect"
 	"errors"
 	"flag"
 	"fmt"
-	"goweb/cmds/mqOrderCourse"
+	"github.com/melonws/goweb/cmds/mqOrderCourse"
 )
 
 var funcMap map[string]interface{}

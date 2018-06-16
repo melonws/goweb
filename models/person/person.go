@@ -1,7 +1,7 @@
 package person
 
 import (
-	"goweb/libs/dbHelper"
+	"github.com/melonws/goweb/libs/dbHelper"
 	"log"
 )
 

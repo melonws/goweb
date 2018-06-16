@@ -2,8 +2,8 @@ package esHelper
 
 import (
 	"github.com/olivere/elastic"
-	"goweb/libs/logHelper"
-	"goweb/config"
+	"github.com/melonws/goweb/libs/logHelper"
+	"github.com/melonws/goweb/config"
 	"context"
 )
 

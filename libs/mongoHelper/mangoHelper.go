@@ -2,7 +2,7 @@ package mongoHelper
 
 import (
 	"gopkg.in/mgo.v2"
-	"goweb/libs/logHelper"
+	"github.com/melonws/goweb/libs/logHelper"
 	"time"
 )
 
