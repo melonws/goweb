@@ -15,7 +15,7 @@ type Person struct {
 
 //而这个方法 就好比 class 中的非静态方法，方法名首字母大写相当于public
 //这个方法一定要 构造出person 然后 person.AddPerson() 而不能直接靠包名调用
-func (p *Person) AddPerson() (id int , err error) {
+func (p *Person) AddPerson() (id int64 , err error) {
 
 	//相比AddPerson不同，CreateModel就好比静态方法，可以直接用包名.方法名调用。
 	connection,personModel,err :=dbHelper.CreateModel("test")
