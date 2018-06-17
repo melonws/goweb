@@ -19,3 +19,4 @@ _ide_helper.php
 .phpintel
 .DS_Store
 .php_cs.cache
+logs/*
