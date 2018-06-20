@@ -9,7 +9,6 @@ import (
 	"bytes"
 	"github.com/melonws/goweb/models/orderCourse"
 	"strconv"
-	"time"
 )
 
 type message struct {
@@ -20,8 +19,8 @@ type message struct {
 func Start(count int){
 	config := map[string]string{
 		"exchange":"bizcrm-es",
-		"routingKey":"bizcrm-es-sync-data-wangshu",
-		"queue":"bizcrm-es-sync-data-wangshu5",
+		"routingKey":"bizcrm-es-sync-data-wangshu2",
+		"queue":"bizcrm-es-sync-data-wangshu6",
 	}
 	callback := mqCallBack
 
@@ -44,11 +43,10 @@ func mqCallBack(delivery amqp.Delivery){
 
 	if err != nil {
 		//异常情况
-		fmt.Println("异常了")
+		fmt.Println("异常了",err)
 	}
 
 
-	time.Sleep(1 * time.Second)
 	//这附近都可以拿到数据做数据的业务处理
 	if msg.Type == "course_order_info" {
 		result := orderCourse.AddToEs(msg.Id)
