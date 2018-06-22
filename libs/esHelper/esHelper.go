@@ -90,3 +90,7 @@ func (this *Es) Edit (esType string ,id string,parentId string, data interface{}
 
 	return true
 }
+
+func (this *Es) Close() {
+	this.Client.CloseIndex(this.EsIndex)
+}

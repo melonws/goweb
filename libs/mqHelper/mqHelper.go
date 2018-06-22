@@ -122,7 +122,6 @@ func Receive(config map[string]string,callback func(delivery amqp.Delivery),coun
 	msgs, err := channel.Consume(queueName, "", false, false, false, false, nil)
 	failOnErr(err, "")
 
-	//forever := make(chan bool)
 loop :
 	select { case d, ok := <- msgs :
 		if ok {
@@ -132,6 +131,7 @@ loop :
 		goto loop
 	}
 
+	//forever := make(chan bool)
 	//for d := range msgs {
 	//	fmt.Println(d)
 	//	go callback(d)

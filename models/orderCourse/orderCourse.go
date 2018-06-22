@@ -43,12 +43,14 @@ func AddToEs(courseOrderInfoId int) bool {
 		newData[key] = v
 	}
 
-
 	Es := esHelper.CreateEs()
+	defer Es.Close()
+
 	//x := a.Add("wangshu","1","",data)
 	result := Es.Edit("wangshu","1","",newData)
 	return result
 }
+
 
 func filter(data *map[string]interface{},filter []string){
 	ds := *data
@@ -74,3 +76,4 @@ func filter(data *map[string]interface{},filter []string){
 		}
 	}
 }
+

@@ -12,11 +12,12 @@ import	(
 /**
  * 例子：https://www.cnblogs.com/WayneZeng/p/7606126.html
  * 		https://www.jianshu.com/p/c4ec92afeca8
+ * 		https://www.cnblogs.com/skymyyang/p/7690837.html
  */
 
 type Style struct{
-	f string `species:"gopher" color:"blue"`
-	a string `species:"ggg" color:"red"`
+	F string `species:"gopher" color:"blue"`
+	A string `species:"ggg" color:"red"`
 }
 
 
@@ -31,7 +32,7 @@ type Data struct {
 
 
 func main() {
-	structToJson()
+	reflectTest()
 
 }
 
@@ -45,9 +46,11 @@ func structToJson(){
 
 
 func reflectTest() {
-	s := Style{}
+	s := Style{"wangshu","shiwo"}
 
 	st := reflect.TypeOf(s)
+	fmt.Println(st.Field(0).Tag.Get("color"))
+
 	field := st.Field(0)
 	fmt.Println(field.Tag.Get("color"), field.Tag.Get("species"))
 }

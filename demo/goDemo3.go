@@ -22,7 +22,7 @@ func cushion(){
 			i++
 			channel<- i
 			fmt.Println("协程写入信道成功")
-			if i == 50 {
+			if i == 52 {
 				fmt.Println("写入完毕")
 				break
 			}

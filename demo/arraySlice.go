@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main () {
-	slice2()
+	slice()
 }
 
 func array () {
