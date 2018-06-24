@@ -33,5 +33,5 @@ func (p *Person) AddPerson() (id int64 , err error) {
 
 	_,err = personModel.Data(data).Insert()
 
-	return personModel.LastInsertId,err
+	return int64(personModel.LastInsertId),err
 }

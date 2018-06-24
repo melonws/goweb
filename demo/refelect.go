@@ -32,7 +32,7 @@ type Data struct {
 
 
 func main() {
-	reflectTest()
+	structToJson()
 
 }
 
