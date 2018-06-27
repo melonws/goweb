@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/melonws/goweb/libs/logHelper"
+	"goweb/libs/esHelper"
+)
 
 type Humen struct {
 	Name string
@@ -36,8 +40,8 @@ func (c *Chiji) jump() {
 func main() {
 
 	h := Humen{"wangshu"}
-
 	//c := &Chiji{}
+
 
 	cs := &Cs{}
 
@@ -47,6 +51,9 @@ func main() {
 	s.say("同学们起立")
 	s.hello()
 }
+
+
+
 
 func (this *Humen) say(str string){
 	fmt.Println(this.Name+"说:"+str)

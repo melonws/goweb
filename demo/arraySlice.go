@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main () {
-	slice()
+	sliceAppend2()
 }
 
 func array () {
@@ -63,4 +63,49 @@ func slice2 () {
 	}
 
 	fmt.Printf("addr of osa:%p,\taddr:%p \t content:%v\n",osa,sa,sa);
+}
+
+
+/*
+ * 动态申请内存
+ */
+func sliceAppend()  {
+
+	var s []int
+
+	fmt.Printf("addr of osa:%p,\t content:%v\n",s,s);
+
+	s = append(s,1)
+
+	fmt.Printf("addr of osa:%p,\t content:%v\n",s,s);
+
+	s = append(s,2)
+
+	fmt.Printf("addr of osa:%p,\t content:%v\n",s,s);
+}
+
+/*
+ * 定义容量，
+ */
+func sliceAppend2()  {
+
+	var s = make([]int,2,3)
+
+	fmt.Printf("addr of osa:%p,\t content:%v,\t length:%d ,\t capacity:%d \n",s,s,len(s),cap(s));
+
+	s = append(s,1)
+
+	fmt.Printf("addr of osa:%p,\t content:%v,\t length:%d,\t capacity:%d\n",s,s,len(s),cap(s));
+
+	s = append(s,2)
+
+	fmt.Printf("addr of osa:%p,\t content:%v,\t length:%d,\t capacity:%d\n",s,s,len(s),cap(s));
+
+	s = append(s,3)
+
+	fmt.Printf("addr of osa:%p,\t content:%v,\t length:%d,\t capacity:%d\n",s,s,len(s),cap(s));
+
+	s = append(s,4)
+	s = append(s,5)
+	fmt.Printf("addr of osa:%p,\t content:%v,\t length:%d,\t capacity:%d\n",s,s,len(s),cap(s));
 }

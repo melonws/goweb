@@ -34,7 +34,7 @@ func cushion(){
 	for{
 		num = <-channel
 		time.Sleep(5 * time.Second)
-		fmt.Println("主进程读出信道成功"+strconv.Itoa(num))
+		fmt.Println("主进程读出信道成 功"+strconv.Itoa(num))
 	}
 
 }

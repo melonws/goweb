@@ -6,8 +6,23 @@ import (
 )
 
 func main() {
-	linear()
-	parallel()
+	sumNum := make(chan int)
+
+	go func() {
+		fmt.Println("123")
+		time.Sleep(5 * time.Second)
+		sumNum <- 1
+	}()
+
+	//不需要
+
+
+	<-sumNum
+	//
+	fmt.Println("马上就要推出")
+
+	//linear()
+	//parallel()
 }
 
 //-------------------------------------------

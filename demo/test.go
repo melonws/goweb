@@ -3,10 +3,19 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"github.com/melonws/goweb/libs/logHelper"
 )
 
 func main()  {
-	mapTest()
+
+	*logHelper.Name = "123"
+
+	fmt.Println(logHelper.Name)
+
+	*logHelper.Name = "456"
+
+	fmt.Println(logHelper.Name)
+	//mapTest()
 	//iftest()
 	//age := []int{18}
 	//updateAgeInt(age)
